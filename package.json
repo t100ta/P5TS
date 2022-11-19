@@ -1,0 +1,24 @@
+{
+  "name": "p5ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "author": "t100ta",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@types/p5": "^1.4.3",
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "p5": "^1.5.0"
+  },
+  "volta": {
+    "node": "18.12.1",
+    "npm": "9.1.2"
+  }
+}
